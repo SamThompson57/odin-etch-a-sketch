@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.square {
+    border: 1px solid black;
+    flex: 1;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    width: 750px;
+    height: 750px;
+    flex-direction: column;
+    margin: auto;
+    
+}
